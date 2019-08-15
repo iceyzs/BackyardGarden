@@ -4,7 +4,7 @@ const app = getApp()
 
 Page({
   data: {
-    motto: 'Hello World1',
+    motto: 'MISS U. EVERY DAY!',
     userInfo: {},
     hasUserInfo: false,
     canIUse: wx.canIUse('button.open-type.getUserInfo')
@@ -12,7 +12,7 @@ Page({
   //事件处理函数
   bindViewTap: function() {
     wx.navigateTo({
-      url: '../logs/logs'
+      url: '../flower-tomb/flower-tomb'
     })
   },
   onLoad: function () {
@@ -46,6 +46,9 @@ Page({
   getUserInfo: function(e) {
     console.log(e)
     app.globalData.userInfo = e.detail.userInfo
+    if (e.detail.userInfo == undefined){
+      return;
+    }
     this.setData({
       userInfo: e.detail.userInfo,
       hasUserInfo: true

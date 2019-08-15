@@ -13,9 +13,38 @@
 }
 
 .userinfo-nickname {
-  color: #aaa;
+  color: #FFF;
 }
 
 .usermotto {
   margin-top: 200px;
+  color: #FFF;
+}
+
+.getUserInfoBtn{
+  margin-top: 50px;
+  width: 70px;
+  height: 40px;
+  line-height: 40px;
+  background: transparent;
+  border-radius: 5px;
+  font-size: 12px;
+  border: 1px #999 solid;
+}
+.getUserInfoBtn::after { border: none; }
+
+.indexPage{
+  flex-direction: column;
+  align-items: center;
+  width: 50px;
+  height: 230px;
+  background: #FFF;
+  color: rgb(0, 105, 70);
+}
+.indexPage1{
+  text-align: center;
+}
+
+.indexPage2{
+  padding-top: 20px;
 }
