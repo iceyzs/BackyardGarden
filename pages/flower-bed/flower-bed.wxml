@@ -1,0 +1,6 @@
+<!--pages/flower-bed/flower-bed.wxml-->
+<view class="container">
+  <view bindtap="homeViewClickTap" class="home_view">
+    {{message}}
+  </view>
+</view>

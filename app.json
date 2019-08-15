@@ -1,13 +1,35 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/flower-tomb/flower-tomb",
+    "pages/logs/logs",
+    "pages/flower-bed/flower-bed"
   ],
   "window": {
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle": "black"
+    "navigationBarBackgroundColor": "#057060",
+    "navigationBarTitleText": "ICEY",
+    "navigationBarTextStyle": "black",
+    "backgroundColor": "#057060"
   },
-  "sitemapLocation": "sitemap.json"
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "后花园"
+      },
+      {
+        "pagePath": "pages/flower-tomb/flower-tomb",
+        "text": "花冢"
+      },
+      {
+        "pagePath": "pages/flower-bed/flower-bed",
+        "text": "花坞"
+      }
+    ],
+    "color": "#308b7d",
+    "backgroundColor": "#057060",
+    "selectedColor": "#FFF"
+  }
 }
